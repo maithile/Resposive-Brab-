@@ -129,7 +129,10 @@
     transform: translateY(0);
   }
 }
-
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 .flex {
   display: flex;
   justify-content: center;
